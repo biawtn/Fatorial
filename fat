@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>At git hub</title>
+</head>
+<body>
+    <script>
+const fatoriais = () => {
+ let fat = 1
+ let num = +prompt(`Digite o número que deseja saber o fatorial`)
+        for(let c=1; c<=num; c++){
+            fat*=c
+        }
+        document.write(`O fatorial de ${num} é igual á ${fat}`)
+    }
+fatoriais()
+    </script>
+</body>
+</html>
